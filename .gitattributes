@@ -1,3 +1,4 @@
 *.jpg filter=lfs diff=lfs merge=lfs -crlf
 *.png filter=lfs diff=lfs merge=lfs -crlf
 *.psd filter=lfs diff=lfs merge=lfs -crlf
+*.davo filter=lfs diff=lfs merge=lfs -crlf
