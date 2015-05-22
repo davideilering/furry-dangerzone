@@ -1,15 +1,25 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
-public class MyThingController : MonoBehaviour {
+public class MyThingController : MonoBehaviour
+{
 
-	// Use this for initialization
+    public float horizontalSpeed = 5.0f;
+    public float verticalSpeed = 5.0f;
+
 	void Start () {
 	
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
+	void Update ()
+	{
+        float xDelta = Input.GetAxis("Horizontal") * horizontalSpeed * Time.deltaTime;
+        float yDelta = Input.GetAxis("Vertical") * verticalSpeed * Time.deltaTime;
+
+	    float xFinal = transform.position.x + xDelta;
+	    float yFinal = transform.position.y + yDelta;
+        transform.position = new Vector3(xFinal, yFinal, 0);
+
+
 	}
 }
