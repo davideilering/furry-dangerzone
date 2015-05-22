@@ -2,7 +2,7 @@
 
 Testing out new git lfs!! 
 
-If you want to clone this repo, then you'll need to download a [Client Plugin](https://github.com/github/git-lfs/releases)
+If you want to clone this repo, then you'll need to download a [Client Plugin](https://github.com/github/git-lfs/releases).  Just download your OS binary, extract it and run the install script from anywhere.
 
 What to know about git lfs workeflow? [Read it here](https://git-lfs.github.com/)
 
