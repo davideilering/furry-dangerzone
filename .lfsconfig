@@ -1,0 +1,3 @@
+[lfs]
+pushurl = "ssh://git@github.com/davideilering/something-totally-bogus"
+url = "ssh://git@github.com/davideilering/furry-dangerzone"
